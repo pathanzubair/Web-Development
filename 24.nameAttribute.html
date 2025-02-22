@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Attribute - HTML</title>
+</head>
+
+<body>
+    <form action="/server">
+
+        <div>
+            <label for="username">
+                Enter your Username :
+                <input type="text" id="username" name="username" placeholder="enter username">
+            </label>
+        </div>
+
+
+        <div>
+            <label for="password">
+                Password
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                <input type="password" id="password" name="password" placeholder="enter password">
+            </label>
+        </div>
+
+        <div>
+
+            <label for="mobile">
+                Mobile No
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                <input type="number" id="mobile" name="mobile_no" placeholder="mobile number">
+            </label>
+
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results?">
+        <div>
+
+            <label for="search">
+                Search 1:
+                <input type="text" name="search_query" id="search" placeholder="Search in youtube">
+            </label>
+        </div>
+        <div>
+
+            <label for="search2">
+                Search 2:
+                <input type="text" name="search_q" id="search" placeholder="Search in youtube">    <!--This will not take you to the youtube page as the name attribute value is changed which is fixed for original youtube page-->
+            </label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
