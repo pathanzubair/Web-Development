@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Input Element - HTML</title>
+</head>
+<body>
+
+    <form action="/server">
+
+        <div>
+            <label for="user">
+                Enter your name:
+                <input type="text" name="username" id="user">
+            </label>
+        </div>
+
+        <div>
+            <label for="Volume">
+                Volume
+                <input type="range" name="vol" id="Volume" min="0" max="100" step="10" value="70">
+            </label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
