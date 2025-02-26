@@ -1,0 +1,47 @@
+body{
+    background-color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: brown;
+    text-align: center;
+    line-height: 30px;
+
+}
+h1{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+h3{
+    text-align: center;
+    /* color: black; */
+}
+
+a{
+    color: rgb(0, 200, 100);
+    text-decoration: none;
+
+}
+button{
+    background-color: white;
+    color: blueviolet;
+    /* font-size: large; */
+    font-family: sans-serif;
+    
+}
+
+textarea{
+    color: black;
+    width: 200px;
+    height: 65px;
+}
+h4{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+span{
+    text-decoration: red underline;
+}
