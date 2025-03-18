@@ -1,3 +1,33 @@
-p{
-    color: red;
+*{
+    /* color: red; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: yellow; */ */
+}
+/* 
+h1{
+    color: blue;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+}
+h3{
+    color: green;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+} */
+
+h1{
+    color: #b92b27;
+}
+h3, p{
+    color:darkgoldenrod
+}
+
+#login{
+    /* color: blue; */
+    background-color: white;
+}
+
+#signup{
+    color: white;
+    background-color: coral;
 }
