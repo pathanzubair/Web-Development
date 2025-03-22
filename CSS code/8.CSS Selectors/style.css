@@ -79,33 +79,59 @@ div>input {
 
 
 /* attribute selector */
-input[type = "text"]{
-    color:green
+input[type="text"] {
+    color: green
 }
 
-input[type = "password"]{
-    color:red
+input[type="password"] {
+    color: red
 }
-input[type]{
+
+input[type] {
     background-color: ghostwhite;
 }
 
 
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+/* specificity */
+
+/* active */
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    color:green;
+    font-weight: bolder;
+}
+
+/* :checked */
+
+input[type = "radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
 
 
+/* nth of :nth-of-type() */
 
 
+/* .post:nth-of-type(2){
+    background-color: lightgoldenrodyellow;
+} */
 
 
-
-
-
-
-
-
-
-
-
-
+div:nth-of-type(2n) {
+    background-color: lightgoldenrodyellow;
+}
 
 
