@@ -109,14 +109,14 @@ button:active {
     color: black;
 }
 
-p:active{
-    color:green;
+p:active {
+    color: green;
     font-weight: bolder;
 }
 
 /* :checked */
 
-input[type = "radio"]:checked + label{
+input[type="radio"]:checked+label {
     color: red;
     font-weight: bolder;
 }
@@ -134,4 +134,23 @@ div:nth-of-type(2n) {
     background-color: lightgoldenrodyellow;
 }
 
+h1::first-letter {
+    color: green;
+}
 
+
+#practice::first-line {
+    color: purple;
+}
+
+#practice::selection {
+    background-color: yellow;
+}
+
+
+h3{
+    background-color: lightblue;
+}
+h3{
+    background-color: goldenrod;
+}
