@@ -1,8 +1,9 @@
-*{
+* {
     /* color: red; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* background-color: yellow; */ */
+    /* background-color: yellow; */
 }
+
 /* 
 h1{
     color: blue;
@@ -15,19 +16,96 @@ h3{
     background-color: blue;
 } */
 
-h1{
+h1 {
     color: #b92b27;
 }
-h3, p{
-    color:darkgoldenrod
+
+h3,
+p {
+    color: rgb(226, 19, 19)
 }
 
-#login{
+#login {
     /* color: blue; */
     background-color: white;
 }
 
-#signup{
+#signup {
     color: white;
     background-color: coral;
 }
+
+.upvote {
+    background-color: green;
+}
+
+div[id="myid"] p {
+    color: blue;
+}
+
+/* #myid p{
+    color: green;
+} */
+
+/* descendant selector */
+/* p a{
+    color: purple;
+    background-color: yellow;
+} */
+
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav li {
+    color: hotpink;
+}
+
+/* sibling combinator */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote+button {
+    background-color: lightblue;
+}
+
+/* child combinator */
+
+div>input {
+    background-color: darksalmon;
+}
+
+
+/* attribute selector */
+input[type = "text"]{
+    color:green
+}
+
+input[type = "password"]{
+    color:red
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
