@@ -149,7 +149,7 @@ h1::first-letter {
 
 
 h3{
-    background-color: lightblue;
+    background-color: lightblue !important;
 }
 h3{
     background-color: goldenrod;
