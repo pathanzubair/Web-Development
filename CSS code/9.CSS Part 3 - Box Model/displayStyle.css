@@ -1,0 +1,25 @@
+/* h2 {
+    display: inline;
+    background-color: cadetblue;
+} */
+
+span {
+    /* display: block; */
+    /* background-color: yellowgreen; */
+    border: 4px solid red;
+    height: 200px;  /* Not implemented */
+    width: 100px;   /* Not implemented */
+    padding: 20px;  /*Implemented  --- HERE paddding is added to the  left and right of the content of the element and not on top and right*/ 
+
+    margin: 50px;   /*Implemented  --- HERE margin is added to the  left and right of the content of the element and not on top and right*/ 
+
+}
+
+div{
+    border: 4px solid red;
+    height: 200px;
+    width: 100px; 
+    padding: 20px;
+    margin: 50px; 
+
+}
