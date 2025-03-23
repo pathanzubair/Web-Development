@@ -1,17 +1,24 @@
-div{
-    height: 200px;
+.first {
+    height: 500px;
     width: 500px;
     background-color: salmon;
     border-width: 5px;
     border-style: solid;
     border-color: black;
 
-    border-top: 5px dashed yellow;      /*border-top: width style color */ /* shorthand property */
+    border-top: 5px dashed yellow;
+    /*border-top: width style color */
+    /* shorthand property */
+
+    border-top-right-radius: 130px; /*changing radius of particular corner */
+    /* Border Radius  property */
 }
 
-h1{
-
-    border: 20px dashed blue;  /* shorthand property */
+h1 {
+    width: 500px;
+    height: 200px;
+    border: 2px dashed blue;
+    /* shorthand property */
     border-left-color: red;
     border-left-style: solid;
 
@@ -19,4 +26,51 @@ h1{
     /* border-width: 20px;
     border-style: dashed;
     border-color: blue; */
+    background-color: turquoise;
+    border-radius: 50% 20% / 10% 40%;
+    
+    padding-top: 25px;
+    padding-left: 50px;
+    
 }
+
+
+.third {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(226, 242, 234);
+    border: 5px dotted red ;
+    border-radius: 20px;
+
+    padding-left: 50px;
+}
+
+
+button{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0px 20px 0px 40px;
+    background-color: burlywood;
+
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
