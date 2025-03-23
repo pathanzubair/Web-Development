@@ -12,6 +12,14 @@
 
     border-top-right-radius: 130px; /*changing radius of particular corner */
     /* Border Radius  property */
+
+
+    margin:20px;
+    /* margin-bottom: 50px; */
+    /* margin-left: 250px; */
+
+
+    
 }
 
 h1 {
@@ -31,6 +39,7 @@ h1 {
     
     padding-top: 25px;
     padding-left: 50px;
+    margin: 0px;
     
 }
 
@@ -43,6 +52,9 @@ h1 {
     border-radius: 20px;
 
     padding-left: 50px;
+
+
+    margin: 10px 20px 30px;
 }
 
 
