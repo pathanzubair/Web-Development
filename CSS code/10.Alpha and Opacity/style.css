@@ -1,0 +1,13 @@
+div {
+    /* color: rgba(red, green, blue, 0); */
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(225, 0, 0, 0.4); */
+    background-color: #00ff1aa0;    /*Applied to the color part only
+    opacity: 0.7;   /*Apply to the whole element including color */
+}
+
+#opacity{
+    background-color: #ebab08;
+    opacity: 0.3;       /*Apply to the whole element including color */
+}
