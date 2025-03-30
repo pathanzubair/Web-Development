@@ -1,0 +1,30 @@
+.card{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 4px 10px #000000;
+    border-radius: 10px;
+    
+    
+    
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 3px 6px 20px goldenrod;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    
+}
+
+
+
+.desc{
+    padding-left: 40px;
+    /* border: inherit; */
+}
