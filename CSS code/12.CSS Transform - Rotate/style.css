@@ -1,0 +1,40 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+/* transform */
+
+/* 1.Rotate */
+#one{
+    transform: rotate(45deg); /* rotate 45 degrees in clockwise direction. To rotate in anticlockwise direction give "-" sign*/
+}
+
+/* 2.Scale - change size along x and y direction */
+
+#two{
+    
+    transform: scale(0.5); /* scale the element to 1.5 times */
+
+    transform: scale(0.5, 1.5); /* scale the element to 0.5 times in x direction and 1.5 times in y direction */
+
+    /* transform: scaleX(0.5); scale the element to 0.5 times in x direction */
+    /* transform: scaleY(0.5); scale the element to 0.5 times in y direction */
+
+}
