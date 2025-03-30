@@ -1,0 +1,16 @@
+div {
+    width: 700px;
+    height: 400px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("elianna-gill-3N7TaZnz0VA-unsplash.jpg");
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-size: auto; */
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
