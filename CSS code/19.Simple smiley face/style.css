@@ -6,6 +6,7 @@
     /* position: absolute;
     top: 100px;
     left: 650px; */
+    
 }
 
 
@@ -19,7 +20,8 @@
     position: absolute;
     top: 100px;
     left: 100px;
-}
+    transition-duration: 3s;
+    transition: margrin 2s ease-in-out 3s;}
 
 #right {
     left: 250px;
@@ -37,10 +39,17 @@
     border-top-left-radius: -10%;
 }
 
+#left:hover{
+    rotate: 360deg;
+    background-color: red;
+    box-shadow: 2px 3px 10px black;
+
+}
+
 #outer-face:hover {
     background-color: rgba(198, 198, 4, 0.835);
     transform: rotate(360deg);
-    transition-duration: 2s;
+    /* transition-duration: 2s; */
     box-shadow: 10px 10px 45px black;
-    transition: all 5s ease;
+    /* transition: all 5s ease; */
 }
