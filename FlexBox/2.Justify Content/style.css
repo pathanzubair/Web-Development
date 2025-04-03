@@ -1,0 +1,30 @@
+#container {
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;  /*here elements are arranged in the row*/
+    flex-direction: row; /*here elements are arranged in the column*/
+
+    /* justify-content: flex-start; aligns items to the start of the flex container */
+    /* justify-content: center; aligns items to the center of the flex container */
+    /* justify-content: flex-end;  aligns items to the end of the flex container */
+    
+    justify-content: space-between; /* distributes space between items */
+    justify-content: space-around; /* distributes space around items */
+    justify-content: space-evenly; /* distributes space evenly between items */
+}
+
+h1 {
+    text-align: center;
+    ;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
