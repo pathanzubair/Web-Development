@@ -1,0 +1,84 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /*here elements are arranged in the row*/
+    flex-direction: row;
+    /*here elements are arranged in the column*/
+
+    /* justify-content: flex-start; aligns items to the start of the flex container
+    /* justify-content: center; aligns items to the center of the flex container */
+    justify-content: flex-start;
+    /* aligns items to the end of the flex container */
+
+    /* justify-content: space-between; distributes space between items */
+    /* justify-content: space-around; distributes space around items */
+    /* justify-content: space-evenly; distributes space evenly between items */
+
+    /* flex-wrap: nowrap; items will not wrap to the next line . this is the default condition */
+    /* flex-wrap: wrap; */
+    /* items will wrap to the next line */
+
+    /* flex-wrap: wrap-reverse;  */
+    /* items will wrap to the next line in reverse order */
+
+
+
+   
+
+    align-content: flex-start;
+    /* aligns items to the start of the cross axis */
+    /* align-content: flex-end; */
+    /* aligns items to the end of the cross axis */
+    /* align-content: center; */
+    /* aligns items to the center of the cross axis */
+    /* align-content: space-between; */
+    /* distributes space between items */
+    /* align-content: space-around; */
+    /* distributes space around items */
+    /* align-content: space-evenly; */
+    /* distributes space evenly between items */
+    /* align-content: baseline; */
+    /* aligns items to the baseline of the cross axis */
+
+    
+
+
+
+
+
+}
+/* Align-self always overrides align-content.  */
+/* Align self is used for specific element and align content for group f element */
+#org{
+    align-self: flex-end;
+    align-self: center;
+    align-self: baseline;
+    /* flex-basis:400px; */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#blu{
+    /* flex-basis: 400px; */
+    /* flex-grow: 2; */
+    /* max-width: 400px; */
+    /* min-width: 400px; */
+    flex-shrink: 3;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
